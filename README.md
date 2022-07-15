@@ -23,8 +23,8 @@ File or Folder | Purpose
 
 ## Deploy your changes
 
-- Build the proyect using `mbt build`
+- Build the project using `mbt build`
 - Login with your credential in cloud foundry using `cf login --sso`
-- Deploy the proyect using `cf deploy mta_archives/Backend_1.0.0.mtar`
+- Deploy the project using `cf deploy mta_archives/Backend_1.0.0.mtar`
 
 
