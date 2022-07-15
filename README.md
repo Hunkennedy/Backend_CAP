@@ -15,11 +15,16 @@ File or Folder | Purpose
 
 ## Next Steps
 
+- You need to install the dependencies running `npm install`
 - Open a new terminal and run `cds watch` 
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - Start adding content, for example, a [db/schema.cds](db/schema.cds).
 
 
-## Learn More
+## Deploy your changes
 
-Learn more at https://cap.cloud.sap/docs/get-started/.
+- Build the proyect using `mbt build`
+- Login with your credential in cloud foundry using `cf login --sso`
+- Deploy the proyect using `cf deploy mta_archives/Backend_1.0.0.mtar`
+
+
